@@ -1,0 +1,10 @@
+# Build dependencies
+maturin>=1.0,<2.0
+
+# Development dependencies
+pytest>=7.0
+black>=22.0
+mypy>=0.990
+
+# No runtime dependencies - the Rust module is self-contained!
+# This is one of the benefits of using Rust: no heavy dependencies like NumPy
