@@ -1,0 +1,31 @@
+# Rust
+**/target/
+**/*.rs.bk
+**/Cargo.lock
+
+# Node
+**/node_modules/
+**/dist/
+**/*.log
+**/.npm
+
+# WASM
+**/pkg/
+**/*.wasm
+
+# TypeScript
+**/*.js
+**/*.d.ts
+**/*.js.map
+!public/*.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+build/
+*.node
